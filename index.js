@@ -42,8 +42,6 @@ var interval = setInterval(function() {
   });
 }, 6000);
 
-console.log(abc);
-
 app.get('/testServer', function(req, res) {
   console.log('Server Running')
 });
